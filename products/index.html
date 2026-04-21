@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Niš Coffee Club</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f1ee;
+        }
+
+        header {
+            background-color: #4b2e2e;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #6f4e37;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .hero {
+            background-image: url('https://images.unsplash.com/photo-1509042239860-f550ce710b93');
+            background-size: cover;
+            background-position: center;
+            height: 300px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-size: 30px;
+            font-weight: bold;
+        }
+
+        .container {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .products {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            background-color: white;
+            padding: 15px;
+            width: 200px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+        }
+
+        .card img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        footer {
+            background-color: #4b2e2e;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Niš Coffee Club</h1>
+    <p>Najbolja kafa u gradu ☕</p>
+</header>
+
+<nav>
+    <a href="#">Početna</a>
+    <a href="#">Proizvodi</a>
+    <a href="#">Kontakt</a>
+</nav>
+
+<div class="hero">
+    Dobrodošli u svet kafe!
+</div>
+
+<div class="container">
+    <h2>Naši proizvodi</h2>
+
+    <div class="products">
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1511920170033-f8396924c348" alt="Espresso">
+            <h3>Espresso</h3>
+            <p>Intenzivan ukus prave italijanske kafe.</p>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1498804103079-a6351b050096" alt="Cappuccino">
+            <h3>Cappuccino</h3>
+            <p>Savršena kombinacija mleka i espressa.</p>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1504630083234-14187a9df0f5" alt="Latte">
+            <h3>Latte</h3>
+            <p>Blaga i kremasta kafa za svaki dan.</p>
+        </div>
+
+    </div>
+</div>
+
+<footer>
+    <p>© 2026 Niš Coffee Club | Sva prava zadržana</p>
+</footer>
+
+</body>
+</html>
