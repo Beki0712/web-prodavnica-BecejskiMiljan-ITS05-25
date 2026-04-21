@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proizvodi | Niš Coffee Club</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f1ee;
+        }
+
+        header {
+            background-color: #4b2e2e;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #6f4e37;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .products {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background-color: white;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+        }
+
+        .card img {
+            width: 100%;
+            border-radius: 10px;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .price {
+            font-weight: bold;
+            color: #6f4e37;
+            margin: 10px 0;
+        }
+
+        button {
+            background-color: #6f4e37;
+            color: white;
+            border: none;
+            padding: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #4b2e2e;
+        }
+
+        footer {
+            background-color: #4b2e2e;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Niš Coffee Club</h1>
+    <p>Naši proizvodi ☕</p>
+</header>
+
+<nav>
+    <a href="index.html">Početna</a>
+    <a href="proizvodi.html">Proizvodi</a>
+    <a href="#">Kontakt</a>
+</nav>
+
+<div class="container">
+    <h2>Naš merch</h2>
+
+    <div class="products">
+
+        <div class="card">
+            <img src="slike/majica.png" alt="Muška majica">
+            <h3>Muška majica</h3>
+            <p>Majica sa Niš Coffee Club dizajnom.</p>
+            <p class="price">1200 RSD</p>
+            <button>Dodaj u korpu</button>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1521369909029-2afed882baee" alt="Kačket">
+            <h3>Kačket</h3>
+            <p>Moderan kačket za svakodnevni stil.</p>
+            <p class="price">900 RSD</p>
+            <button>Dodaj u korpu</button>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf" alt="Duks">
+            <h3>Duks</h3>
+            <p>Topao i udoban duks.</p>
+            <p class="price">2500 RSD</p>
+            <button>Dodaj u korpu</button>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1514228742587-6b1558fcca3d" alt="Šolja">
+            <h3>Tematska šolja</h3>
+            <p>Idealna za ljubitelje kafe.</p>
+            <p class="price">700 RSD</p>
+            <button>Dodaj u korpu</button>
+        </div>
+
+    </div>
+</div>
+
+<footer>
+    <p>© 2026 Niš Coffee Club</p>
+</footer>
+
+</body>
+</html>
